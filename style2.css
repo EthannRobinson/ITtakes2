@@ -1,17 +1,48 @@
 * {
-background-color: black;
+text-decoration: none;
 
 }
 
 
 ul {
-padding-top: 50px;
+padding-top: 0px;
 font-size: 2rem;
-color: silver;
+color: black;
 }
 
 li {
-padding-top: 30px;
+padding-top: 0px;
+}
+
+nav {
+width: 100%;
+height: 100px;
+background-color: lightgray;
+
+}
+
+body {
+background-color: beige;
+
+}
+
+div.return {
+list-style: none;
+display: inline-block;
+float: left;
+line height: 100px;
+text-decoration: none;
+font-family: fantasy;
+color: gray;
+display: block;
+padding-left: 550px;
+
+
+}
+
+div.Home {
+list-style: none;
+color: gray;
 
 
 }
