@@ -4,41 +4,59 @@ padding: 0;
 
 }
 
+body {
+background-color: silver;
+
+
+}
 nav {
 width: 100%;
 height: 100px;
-background-color: white;
+background-color: lightgray;
+
 }
-
-body {
-  background-color: darkgray;
-}
-
-
 ul {
+margin-left: 500px;
 
 }
 
-ul li{
-list-style: none;
-display: inline-block;
-float: left;
-line-height: 100px;
+ul li {
+  display: block;
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+
+
 }
 
 ul li a {
 text-decoration: none;
-font-size: 20px;
-font-family: fantasy;
-color: gray;
+font-size: 14px;
+font-family: arial;
+color: black;
 padding: 0 20px;
-display: block;
-padding-left: 400px;
+font-size: 2rem;
+
+}
+
+ul li a:hover {
+color: red;
+border-style: outset;
+}
+
+
+li {
+padding-left: 35px;
+
 }
 
 h1 {
-text-align: center;
 font-size: 3rem;
-padding-top: 20px;
+text-align: center;
+}
+
+.income {
+padding: 0px;
 
 }
