@@ -5,7 +5,7 @@ padding: 0;
 }
 
 body {
-background-color: white;
+background-color: gray;
 
 
 }
@@ -58,8 +58,8 @@ padding-left: 35px;
 
 }
 
-h1 {
-font-size: 3rem;
+.title {
+font-size: 2rem;
 text-align: center;
 }
 
@@ -82,5 +82,28 @@ border-style: outset;
 }
 .title {
  background-color: #7b9bab;
+
+}
+
+.sailboat {
+ text-align: center;
+ padding-bottom: 20px;
+ padding-top: 0px;
+
+}
+
+.ethan {
+text-align: center;
+padding-top: 50px;
+font-size: 24px;
+
+}
+
+.sam {
+text-align: center;
+padding-bottom: 50px;
+padding-top: 20px;
+font-size: 24px;
+
 
 }
